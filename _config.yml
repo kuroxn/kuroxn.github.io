@@ -1,6 +1,4 @@
-
 title: 黒メモ
-show_downloads: false
 
 defaults:
   - scope:
@@ -10,3 +8,14 @@ defaults:
       layout: "default"
       permalink: /:year/:month/:title:output_ext
      
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  
+paginate: 2
+paginate_path: "page:num"
+
+author : kuro   

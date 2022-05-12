@@ -10,11 +10,3 @@ defaults:
       layout: "default"
       permalink: /:year/:month/:title:output_ext
      
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-  
-paginate: 2
-paginate_path: "page:num"

@@ -15,11 +15,16 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-     
+
+relative_links:
+  enabled:     true
+  collections: false
+  
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-remote-theme
   

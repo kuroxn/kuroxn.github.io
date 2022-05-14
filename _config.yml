@@ -19,3 +19,6 @@ paginate: 20
 paginate_path: "page:num"
 
 author : kuro  
+
+#未来日付の公開有無
+future: ture

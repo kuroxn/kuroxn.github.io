@@ -1,5 +1,14 @@
 title: 黒メモ
 
+
+collections:
+  pages:
+    output: true
+    permalink: /:title:output_ext
+  posts:
+    output: true
+    permalink: /:year/:month/:title:output_ext
+
 defaults:
   - scope:
       path: ""

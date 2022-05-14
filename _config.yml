@@ -36,4 +36,4 @@ author : kuro
 timezone: Asia/Tokyo
 
 #未来日付の公開有無
-future: false
+future: true

@@ -29,7 +29,7 @@ plugins:
   - jekyll-remote-theme
   
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "/page/:num"
 
 author : kuro  
 
